@@ -147,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 86415391}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.008726558, z: -0, w: 0.999962}
-  m_LocalPosition: {x: -8.343369, y: -3.4696202, z: -10.745909}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -290,6 +290,8 @@ MonoBehaviour:
   RunningSpeed: 9
   JumpForce: 8
   Gravity: 20
+  LookSensivity: 0.1
+  LookAngleLimit: 90
 --- !u!143 &928019953
 CharacterController:
   m_ObjectHideFlags: 0
@@ -324,7 +326,7 @@ Transform:
   m_GameObject: {fileID: 928019951}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.008726558, z: 0, w: 0.999962}
-  m_LocalPosition: {x: 8.52964, y: 4.46962, z: 10.59866}
+  m_LocalPosition: {x: 15.65, y: 2.8, z: 6.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
