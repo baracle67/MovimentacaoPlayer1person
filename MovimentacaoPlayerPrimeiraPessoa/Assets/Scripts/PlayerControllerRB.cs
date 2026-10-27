@@ -93,7 +93,7 @@ public class PlayerControllerRB : MonoBehaviour
         // atualizao angulo da camnera a partir do eixo y lido (para cima ou para baixo)
         //  é necessario inverter pois quando vamos para frente com o mouse ou o joystick
         // queremos que a rotação da camera em relacao ao eixo x diminua
-        lookAngle += lookVector.y * LookSensivity;
+        lookAngle += -lookVector.y * LookSensivity;
         // aqui garantimos nao permitir uma rotacao maior que o limite definido (90 graus)
         lookAngle = Mathf.Clamp(lookAngle, -LookAngleLimit, LookAngleLimit);
         // aplica a rotação da camera para cima ou para baixo 
